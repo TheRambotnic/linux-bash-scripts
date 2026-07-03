@@ -45,6 +45,7 @@ declare -A FLATPAKS=(
     ["io.github.seadve.Mousai"]="Mousai"
     ["org.nickvision.tubeconverter"]="Parabolic"
     ["com.vysp3r.ProtonPlus"]="ProtonPlus"
+    ["io.missioncenter.MissionCenter"]="Mission Center"
 )
 
 readonly FLATPAKS
