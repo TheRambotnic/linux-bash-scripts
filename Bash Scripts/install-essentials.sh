@@ -64,7 +64,7 @@ logInfo() {
 }
 
 logError() {
-    echo -e "${CLR_RED}$1${CLR_DEFAULT}"
+    echo -e "\n${CLR_RED}[!] $1${CLR_DEFAULT}"
 }
 
 beginInstallation() {
@@ -205,7 +205,7 @@ restartSession() {
         case $yn in
             [Nn]* ) exit;;
             [Yy]* ) sudo pkill -KILL -u $(whoami);;
-            * ) logError "\nPlease select YES (Y) or NO (N).";;
+            * ) logError "Please select YES (Y) or NO (N).";;
         esac
     done
 }
@@ -228,7 +228,7 @@ main() {
         case $yn in
             [Nn]* ) exit;;
             [Yy]* ) beginInstallation;;
-            * ) logError "\nPlease select YES (Y) or NO (N).";;
+            * ) logError "Please select YES (Y) or NO (N).";;
         esac
     done
 }
