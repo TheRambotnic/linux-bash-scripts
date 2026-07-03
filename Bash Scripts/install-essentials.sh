@@ -18,6 +18,7 @@ declare -A DNF_PACKAGES=(
     ["bleachbit"]="BleachBit"
     ["qalculate-qt"]="Qalculate! (Qt)"
     ["vlc"]="VLC media player"
+    ["mpv"]="mpv Media Player"
     ["libavcodec-freeworld"]="Multimedia Codecs"
     ["gimp"]="GNU Image Manipulation Program (GIMP)"
     ["audacity"]="Audacity"
